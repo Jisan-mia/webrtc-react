@@ -3,7 +3,9 @@ function App() {
 
   return (
     <>
-      <h1 className="font-bold text-3xl">this is app</h1>
+      <div className="bg-green-400">
+        <h1 className="text-center text-4xl">This is a Heading</h1>
+      </div>
     </>
   )
 }
