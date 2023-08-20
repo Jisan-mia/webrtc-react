@@ -9,6 +9,8 @@ lerna-debug.log*
 
 client/node_modules
 server/node_modules
+webrtc-firebase/node_modules
+
 dist
 dist-ssr
 *.local
