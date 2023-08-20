@@ -1,13 +1,15 @@
+import { Route, Routes } from "react-router-dom";
+import LobbyPage from "./components/LobbyPage";
+import RoomPage from "./components/RoomPage";
 
 function App() {
-
+  
   return (
-    <>
-      <div className="bg-green-400">
-        <h1 className="text-center text-4xl">This is a Heading</h1>
-      </div>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<LobbyPage />} />
+      <Route path="/room/:roomId" element={<RoomPage />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
